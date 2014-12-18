@@ -1,7 +1,59 @@
-﻿{
+{
+   "AllDownloadsTitle": {
+      "description": "",
+      "message": "Все загрузки"
+   },
    "badChromeVersion": {
       "description": "",
       "message": "The downloads API is only available on dev and beta channels. Update your chrome here."
+   },
+   "cancelTitle": {
+      "description": "",
+      "message": "Отменить"
+   },
+   "clearAllText": {
+      "description": "",
+      "message": "Очистить все"
+   },
+   "clearAllTitle": {
+      "description": "",
+      "message": "Очистить все видимые загрузки"
+   },
+   "clearCompletedText": {
+      "description": "",
+      "message": "Очистить завершенные"
+   },
+   "clearCompletedTitle": {
+      "description": "",
+      "message": "Очистить все завершенные загрузки"
+   },
+   "clearDeletedText": {
+      "description": "",
+      "message": "Очистить удаленные загрузки"
+   },
+   "clearDeletedTitle": {
+      "description": "",
+      "message": "Очистить все загрузки, файлы которых были удалены"
+   },
+   "clearFailedText": {
+      "description": "",
+      "message": "Очистить неудачные"
+   },
+   "clearFailedTitle": {
+      "description": "",
+      "message": "Очистить все неудавшиеся загрузки"
+   },
+   "contextMenuDeleteFromDisk": {
+      "description": "",
+      "message": "Удалить с диска"
+   },
+   "contextMenuDownloadLink": {
+      "description": "",
+      "message": "Копировать ссылку"
+   },
+   "contextMenuGoToDownloadPage": {
+      "description": "",
+      "message": "Перейти по ссылке"
    },
    "contextMenuOpen": {
       "description": "",
@@ -11,69 +63,9 @@
       "description": "",
       "message": "Расположение файла"
    },
-   "contextMenuGoToDownloadPage": {
-      "description": "",
-      "message": "Перейти по ссылке"
-   },
-   "contextMenuDownloadLink": {
-      "description": "",
-      "message": "Копировать ссылку"
-   },
-   "contextMenuDeleteFromDisk": {
-      "description": "",
-      "message": "Удалить с диска"
-   },
    "contextMenuRemoveFromList": {
       "description": "",
       "message": "Удалить из списка"
-   },
-   "translationTitle": {
-      "description": "",
-      "message": "Помощь с переводом"
-   },
-   "AllDownloadsTitle": {
-      "description": "",
-      "message": "Все загрузки"
-   },
-   "optionsTitle": {
-      "description": "",
-      "message": "Опции"
-   },
-   "cancelTitle": {
-      "description": "",
-      "message": "Отменить"
-   },
-   "clearAllTitle": {
-      "description": "",
-      "message": "Очистить все видимые загрузки"
-   },
-   "clearAllText": {
-      "description": "",
-      "message": "Очистить все"
-   },
-   "clearCompletedTitle": {
-      "description": "",
-      "message": "Очистить все завершенные загрузки"
-   },
-   "clearCompletedText": {
-      "description": "",
-      "message": "Очистка завершена"
-   },
-   "clearDeletedTitle": {
-      "description": "",
-      "message": "Очистить все удаленные загрузки"
-   },
-   "clearDeletedText": {
-      "description": "",
-      "message": "Очистить удаленные загруки"
-   },
-   "clearFailedTitle": {
-      "description": "",
-      "message": "Очистить все неудавшиеся загрузки"
-   },
-   "clearFailedText": {
-      "description": "",
-      "message": "Очистка не удалась"
    },
    "eraseTitle": {
       "description": "",
@@ -85,10 +77,10 @@
    },
    "extDesc": {
       "description": "Extension description",
-      "message": "Легкий и быстрый способ упраления вашими загрузками"
+      "message": "Легкий и быстрый способ управления вашими загрузками"
    },
    "extName": {
-      "description": "Extension name", 
+      "description": "Extension name",
       "message": "Менеджер загрузок"
    },
    "grantManagementPermission": {
@@ -151,21 +143,13 @@
       "description": "",
       "message": "окт"
    },
-   "openDownloadsFolderTitle": {
-      "description": "",
-      "message": "Открыть папку с загрузками"
-   },
    "openDownloadsFolderText": {
       "description": "",
       "message": "Папка загрузок"
    },
-   "settingsTitle": {
+   "openDownloadsFolderTitle": {
       "description": "",
-      "message": "Настройки"
-   },
-   "settingsText": {
-      "description": "",
-      "message": "Настройки"
+      "message": "Открыть папку с загрузками"
    },
    "openTitle": {
       "description": "",
@@ -173,7 +157,7 @@
    },
    "openWhenCompleteDays": {
       "description": "",
-      "message": "Открытие в $days$d $hours$h",
+      "message": "До открытия $days$д. $hours$ч.",
       "placeholders": {
          "days": {
             "content": "$1",
@@ -187,11 +171,11 @@
    },
    "openWhenCompleteFinishing": {
       "description": "",
-      "message": "Открыть сейчас"
+      "message": "Открыть по завершению"
    },
    "openWhenCompleteHours": {
       "description": "",
-      "message": "Открытие в $hours$h $mins$m",
+      "message": "До открытия $hours$ч. $mins$м.",
       "placeholders": {
          "hours": {
             "content": "$1",
@@ -205,7 +189,7 @@
    },
    "openWhenCompleteMinutes": {
       "description": "",
-      "message": "Открытие в $mins$m $sec$s",
+      "message": "До открытия $mins$м. $sec$с.",
       "placeholders": {
          "mins": {
             "content": "$1",
@@ -219,13 +203,17 @@
    },
    "openWhenCompleteSeconds": {
       "description": "",
-      "message": "Открытие в $sec$s",
+      "message": "До открытия $sec$с.",
       "placeholders": {
          "sec": {
             "content": "$1",
             "example": "59"
          }
       }
+   },
+   "optionsTitle": {
+      "description": "",
+      "message": "Опции"
    },
    "pauseTitle": {
       "description": "",
@@ -255,6 +243,14 @@
       "description": "",
       "message": "Поиск..."
    },
+   "settingsText": {
+      "description": "",
+      "message": "Настройки"
+   },
+   "settingsTitle": {
+      "description": "",
+      "message": "Настройки"
+   },
    "showInFolderTitle": {
       "description": "",
       "message": "Показать в папке"
@@ -269,7 +265,7 @@
    },
    "timeLeftDays": {
       "description": "",
-      "message": "Прошло $days$d $hours$h",
+      "message": "Прошло $days$д. $hours$ч.",
       "placeholders": {
          "days": {
             "content": "$1",
@@ -287,7 +283,7 @@
    },
    "timeLeftHours": {
       "description": "",
-      "message": "$hours$h $mins$m осталось",
+      "message": "Осталось $hours$ч. $mins$м.",
       "placeholders": {
          "hours": {
             "content": "$1",
@@ -301,7 +297,7 @@
    },
    "timeLeftMinutes": {
       "description": "",
-      "message": "$mins$m $sec$s осталось",
+      "message": "Осталось $mins$м. $sec$с.",
       "placeholders": {
          "mins": {
             "content": "$1",
@@ -315,7 +311,7 @@
    },
    "timeLeftSeconds": {
       "description": "",
-      "message": "$sec$s осталось",
+      "message": "Осталось $sec$с.",
       "placeholders": {
          "sec": {
             "content": "$1",
@@ -323,9 +319,13 @@
          }
       }
    },
+   "translationTitle": {
+      "description": "",
+      "message": "Помощь с переводом"
+   },
    "zeroItems": {
       "description": "",
-      "message": "Пусто."
+      "message": "Пусто"
    },
    "zeroSearchResults": {
       "description": "",
